@@ -72,7 +72,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_Haproxy
 config PACKAGE_$(PKG_NAME)_INCLUDE_Hysteria
 	bool "Include Hysteria"
 	select PACKAGE_hysteria
-	default y
+	default n
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_NaiveProxy
 	bool "Include NaiveProxy"
